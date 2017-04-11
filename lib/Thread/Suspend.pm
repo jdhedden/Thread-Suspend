@@ -3,7 +3,7 @@ package Thread::Suspend; {
 use strict;
 use warnings;
 
-our $VERSION = '1.22';
+our $VERSION = '1.23';
 
 use threads 1.39;
 use threads::shared 1.01;
@@ -154,7 +154,7 @@ Thread::Suspend - Suspend and resume operations for threads
 
 =head1 VERSION
 
-This document describes Thread::Suspend version 1.22
+This document describes Thread::Suspend version 1.23
 
 =head1 SYNOPSIS
 
@@ -311,10 +311,15 @@ L<Test::More> 0.50 or later (for installation)
 
 =head1 SEE ALSO
 
-Thread::Suspend Discussion Forum on CPAN:
-L<http://www.cpanforum.com/dist/Thread-Suspend>
+Thread::Suspend on MetaCPAN:
+L<https://metacpan.org/release/Thread-Suspend>
+
+Code repository:
+L<https://github.com/jdhedden/Thread-Suspend>
 
 L<threads>, L<threads::shared>
+
+Sample code in the I<examples> directory of this distribution on CPAN.
 
 =head1 AUTHOR
 

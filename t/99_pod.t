@@ -53,5 +53,6 @@ Hedden
 SIGUSR1
 TIDs
 cpan
+MetaCPAN
 
 __END__
