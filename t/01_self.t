@@ -27,6 +27,7 @@ use_ok('Thread::Suspend');
 
 ### Setup ###
 
+use lib '.';
 require 't/test.pl';
 
 sub checker2

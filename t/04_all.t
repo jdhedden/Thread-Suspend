@@ -27,6 +27,7 @@ use_ok('Thread::Suspend');
 
 ### Setup ###
 
+use lib '.';
 require 't/test.pl';
 
 my @threads = make_threads($nthreads);

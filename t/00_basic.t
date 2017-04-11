@@ -33,6 +33,7 @@ can_ok('threads', qw(suspend is_suspended resume));
 
 ### Setup ###
 
+use lib '.';
 require 't/test.pl';
 
 my @threads = make_threads($nthreads);
